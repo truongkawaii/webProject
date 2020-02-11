@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.top-navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+
+}
+
+
+.logo-brand {
+    display: flex;
+}
+
+.brand {
+    position: relative;
+    left: 15px;
+    top: 10px;
+
+}
+
+.search input {
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    text-align: center;
+    background-color: #FAFAFA;
+
+}
+
+.sidebar {
+    display: flex;
+
+}
+
+.love-logo {
+    padding: 0px 10px 0px 10px;
+}
+
+
+@media screen and (max-width:1400px) {
+    .container {
+        width: 1299px;
+    }
+}
